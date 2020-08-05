@@ -52,3 +52,5 @@ examples/example_sdl_opengl3/example_sdl_opengl3
 bin/**
 bin-int/**
 **.vcxproj
+**.vcxproj.filters
+**.vcxproj.user

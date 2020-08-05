@@ -15,13 +15,22 @@ project "ImGui"
         "imstb_rectpack.h",
         "imstb_textedit.h",
         "imstb_truetype.h",
-        "imgui_demo.cpp"
+        "imgui_demo.cpp",
+		"../glmVendor/glm/**.hpp",
+		"../glmVendor/glm/**.inl",
+    }
+
+    includedirs {
+    	"../glmVendor",
     }
     
     filter "system:windows"
         systemversion "latest"
         cppdialect "C++17"
         staticruntime "On"
-        
+
+    filter { "system:windows", "configurations:Debug" }
+        buildoptions "/MTd"
+
     filter { "system:windows", "configurations:Release" }
         buildoptions "/MT"
