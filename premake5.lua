@@ -27,10 +27,10 @@ project "ImGui"
     filter "system:windows"
         systemversion "latest"
         cppdialect "C++17"
-        staticruntime "On"
+        staticruntime "on"
 
     filter { "system:windows", "configurations:Debug" }
-        buildoptions "/MTd"
+        buildoptions "/MDd"
 
     filter { "system:windows", "configurations:Release" }
-        buildoptions "/MT"
+        buildoptions "/MD"
