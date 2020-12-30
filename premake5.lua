@@ -1,5 +1,5 @@
 project "ImGui"
-    kind "StaticLib"
+    kind "SharedLib"
     language "C++"
     
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
@@ -22,6 +22,10 @@ project "ImGui"
 
     includedirs {
     	"../glmVendor",
+    }
+
+    defines {
+        "IMGUI_API_EXPORT"
     }
     
     filter "system:windows"
