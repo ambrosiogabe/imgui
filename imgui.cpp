@@ -2453,6 +2453,7 @@ const char* ImGui::GetStyleColorName(ImGuiCol idx)
     {
     case ImGuiCol_Text: return "Text";
     case ImGuiCol_TextDisabled: return "TextDisabled";
+    case ImGuiCol_TextInverted: return "TextInverted";
     case ImGuiCol_WindowBg: return "WindowBg";
     case ImGuiCol_ChildBg: return "ChildBg";
     case ImGuiCol_PopupBg: return "PopupBg";
@@ -2465,6 +2466,9 @@ const char* ImGui::GetStyleColorName(ImGuiCol idx)
     case ImGuiCol_TitleBgActive: return "TitleBgActive";
     case ImGuiCol_TitleBgCollapsed: return "TitleBgCollapsed";
     case ImGuiCol_MenuBarBg: return "MenuBarBg";
+    case ImGuiCol_MenuBarButtonBg: return "MenuBarButtonBg";
+    case ImGuiCol_MenuBarButtonBgHover: return "MenuBarButtonBgHover";
+    case ImGuiCol_MenuBarButtonBgActive: return "MenuBarButtonBgActive";
     case ImGuiCol_ScrollbarBg: return "ScrollbarBg";
     case ImGuiCol_ScrollbarGrab: return "ScrollbarGrab";
     case ImGuiCol_ScrollbarGrabHovered: return "ScrollbarGrabHovered";
