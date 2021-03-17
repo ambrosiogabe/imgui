@@ -1,6 +1,7 @@
 project "ImGui"
     kind "SharedLib"
     language "C++"
+    staticruntime "off"
     
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
@@ -31,7 +32,6 @@ project "ImGui"
     filter "system:windows"
         systemversion "latest"
         cppdialect "C++17"
-        staticruntime "on"
 
     filter { "system:windows", "configurations:Debug" }
         buildoptions "/MDd"

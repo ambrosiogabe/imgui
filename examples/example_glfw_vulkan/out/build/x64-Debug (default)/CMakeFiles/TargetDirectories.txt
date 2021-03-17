@@ -1,0 +1,8 @@
+C:/dev/C++/CocoaEngine/CocoaEngine/vendor/imguiVendor/examples/example_glfw_vulkan/out/build/x64-Debug (default)/CMakeFiles/example_glfw_vulkan.dir
+C:/dev/C++/CocoaEngine/CocoaEngine/vendor/imguiVendor/examples/example_glfw_vulkan/out/build/x64-Debug (default)/CMakeFiles/edit_cache.dir
+C:/dev/C++/CocoaEngine/CocoaEngine/vendor/imguiVendor/examples/example_glfw_vulkan/out/build/x64-Debug (default)/CMakeFiles/rebuild_cache.dir
+C:/dev/C++/CocoaEngine/CocoaEngine/vendor/imguiVendor/examples/example_glfw_vulkan/out/build/x64-Debug (default)/binary_dir/CMakeFiles/edit_cache.dir
+C:/dev/C++/CocoaEngine/CocoaEngine/vendor/imguiVendor/examples/example_glfw_vulkan/out/build/x64-Debug (default)/binary_dir/CMakeFiles/rebuild_cache.dir
+C:/dev/C++/CocoaEngine/CocoaEngine/vendor/imguiVendor/examples/example_glfw_vulkan/out/build/x64-Debug (default)/binary_dir/src/CMakeFiles/rebuild_cache.dir
+C:/dev/C++/CocoaEngine/CocoaEngine/vendor/imguiVendor/examples/example_glfw_vulkan/out/build/x64-Debug (default)/binary_dir/src/CMakeFiles/glfw.dir
+C:/dev/C++/CocoaEngine/CocoaEngine/vendor/imguiVendor/examples/example_glfw_vulkan/out/build/x64-Debug (default)/binary_dir/src/CMakeFiles/edit_cache.dir
